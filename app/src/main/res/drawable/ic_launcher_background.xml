@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Base liquid background with rich ocean teal radial depth -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="62"
+                android:type="radial">
+                <item android:color="#0F6478" android:offset="0.0" />
+                <item android:color="#167D94" android:offset="0.45" />
+                <item android:color="#0F5B6D" android:offset="0.75" />
+                <item android:color="#083844" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Concentric liquid water ripple rings matching user image -->
+    <!-- Inner ripple 1 -->
+    <path
+        android:pathData="M54,38 A16,16 0 1,1 53.99,38 Z"
+        android:strokeWidth="3.2"
+        android:strokeColor="#2697AF"
+        android:fillColor="#00000000" />
+
+    <!-- Ripple 2 -->
+    <path
+        android:pathData="M54,27 A27,27 0 1,1 53.99,27 Z"
+        android:strokeWidth="3.8"
+        android:strokeColor="#1F879D"
+        android:fillColor="#00000000" />
+
+    <!-- Ripple 3 -->
+    <path
+        android:pathData="M54,16 A38,38 0 1,1 53.99,16 Z"
+        android:strokeWidth="4.2"
+        android:strokeColor="#187488"
+        android:fillColor="#00000000" />
+
+    <!-- Outer ripple 4 -->
+    <path
+        android:pathData="M54,6 A48,48 0 1,1 53.99,6 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#105F70"
+        android:fillColor="#00000000" />
+
+    <!-- Liquid specular highlight arc along top-left curve -->
+    <path
+        android:pathData="M18,36 C24,20 40,12 58,12 C72,12 86,18 94,28"
+        android:strokeWidth="1.8"
+        android:strokeColor="#33BBE0E8"
+        android:fillColor="#00000000" />
+</vector>

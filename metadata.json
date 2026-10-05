@@ -1,0 +1,6 @@
+{
+  "name": "MOTO DIALER",
+  "description": "Next-generation Liquid OS phone dialer blending Motorola Android character with iPhone simplicity. Features fluid glass UI, T9 predictive search, liquid keypad, incoming/outgoing call overlays, and contacts fast-scrolling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
